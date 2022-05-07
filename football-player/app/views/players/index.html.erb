@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>ID</th>
       <th>Name</th>
       <th>Current team</th>
       <th>Age</th>
@@ -16,6 +17,7 @@
   <tbody>
     <% @players.each do |player| %>
       <tr>
+        <td><%= player.id %></td>
         <td><%= player.name %></td>
         <td><%= player.current_team %></td>
         <td><%= player.age %></td>
